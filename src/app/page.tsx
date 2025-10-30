@@ -37,7 +37,7 @@ export default function Home() {
 
       <div id="hero" data-section="hero">
         <HeroSplit
-          title="Arene. Üllata. Korda. Naudi. Rae Rae"
+          title="Arene. Üllata. Korda. Naudi. Rae Rae Rae"
           description="Rae Gümnaasium - kaasaegne haridusasutus, kus iga õpilane saab areneda, õppida ja saavutada oma eesmärke toetavas ning inspireerivas keskkonnas."
           tag="Rae Gümnaasium"
           tagIcon={GraduationCap}
