@@ -316,6 +316,15 @@ export default function RootLayout({
         return url;
       }
     }
+    
+    if (url.includes('.webildsbx.cc/')) {
+    try {
+      const urlObj = new URL(url);
+      return urlObj.pathname;
+    } catch (e) {
+      return url;
+    }
+  }
 
     return url;
   };
